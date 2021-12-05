@@ -31,5 +31,3 @@ func TestHello(t *testing.T) {
 		assertCorrectMessage(t, got, want)
 	})
 }
-
-
