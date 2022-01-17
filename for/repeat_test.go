@@ -1,4 +1,4 @@
-package iteration
+package main
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ func BenchmarkRepeat(b *testing.B) {
 }
 
 func ExampleRepeat() {
-	repeated := Repeat("abc",  3)
+	repeated := Repeat("abc", 3)
 	fmt.Println(repeated)
 	// Output: abcabcabc
 }

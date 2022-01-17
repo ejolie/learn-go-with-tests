@@ -1,4 +1,4 @@
-package shapes
+package main
 
 import "math"
 
